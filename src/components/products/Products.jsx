@@ -17,7 +17,7 @@ export default function Products() {
     },[])
   return (   <>
     <div className="container">
-        {Products!=0?<div className="row">
+        {Products!=0?<div className="row ">
         <Product Products={Products}/>
         </div>: <Loading/>}
     </div>

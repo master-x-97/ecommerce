@@ -5,3 +5,29 @@ a {
     text-decoration: none !important;
     text-align: center;
 }
+
+/* .my-media{
+    width: 50%;
+    display: inline;
+} */
+
+@media (max-width: 768px){
+    .mymedia {
+        width: 50% !important;
+        display: inline !important;
+        color: blue !important;
+    }
+
+    .col-md-2{
+        width: 50% !important;
+    }
+    .row>*{
+        width: 50% !important;
+    }
+    
+}
+
+
+.mymedia{
+    width: 200% !important;
+}

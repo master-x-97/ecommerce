@@ -1,7 +1,7 @@
 
 import './App.css';
 import NavBar from './components/navBar/NavBar';
-import {RouterProvider , createBrowserRouter} from "react-router-dom"
+import {RouterProvider , createBrowserRouter, createHashRouter} from "react-router-dom"
 import { Router } from 'react-router-dom';
 import Layout from './components/layout/Layout';
 import Homepage from './components/pages/Homepage';
@@ -29,7 +29,7 @@ import Brands from './components/Brands/Brands';
   //   let decodedToken = jwtDecode(encodedToken)
   //   setUserData(decodedToken);
   // }
-  let routes=createBrowserRouter([
+  let routes=createHashRouter([
     {
       path:'',
       element:<Layout/>,

@@ -23,7 +23,9 @@ export default function ProductDitails() {
                 <div className="col-md-3">
                 <img src={Product.imageCover} className='w-100' alt="" />
                 </div>
-                <div className="col-md-9"></div>
+                <div className="col-md-9">
+                  <div>hello</div>
+                </div>
             </div>
         </div>
     </div>

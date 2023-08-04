@@ -60,3 +60,11 @@ a , a:hover{
 .btn-border{
     border: 1px solid var(--main-color);
 }
+
+@media (max-width: 768px){
+    .mymedia {
+        width: 30% !important;
+        margin: auto !important;
+
+    }
+}

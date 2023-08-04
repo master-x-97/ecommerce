@@ -23,8 +23,8 @@ export default function Product({Products}) {
   return (
     <>
     {Products.map((item) =>{
-        return <div key={item._id} className='col-md-2  mt-4'>
-<div className="product">
+        return <div key={item._id} className={`mymedia col-md-2 mt-4`}>
+<div className="product  ">
           <Link className='links' to={'/Product-details/'+item._id}>
           <img className='w-100 ' src={item.imageCover} alt="" />
             <h6 className='text-main my-1 links'>{item.category.name}</h6>
