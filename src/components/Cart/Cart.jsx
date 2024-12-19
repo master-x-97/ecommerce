@@ -78,8 +78,8 @@ export default function () {
     <Link to='/Checkout' className='btn bg-main text-white'>CHECkOUT</Link>
    </div>
 
-  </div> : /*"<Loading/>"*/ <div className='w-100 vh-100 container  bg-secondary-subtle position-relativ'>
-    <div className='fs-1 my-4 position-absolute top-50 start-50 translate-middle'><p className='text-main fw-bold '>you have no products in your cart</p> </div>
+  </div> : /*"<Loading/>"*/ <div className=' vh-100 container  bg-secondary-subtle'>
+    <div className='fs-1  position-absolute top-50 start-50 translate-middle'><p className='text-main fw-bold '>waiting for products</p> </div>
     </div>}
     
     </>

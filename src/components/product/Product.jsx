@@ -23,7 +23,7 @@ export default function Product({Products}) {
   return (
     <>
     {Products.map((item) =>{
-        return <div key={item._id} className={`mymedia col-md-2 mt-4`}>
+        return <div key={item._id} className={`mymedia col-md-2 mt-4 mb-5 `}>
 <div className="product  ">
           <Link className='links' to={'/Product-details/'+item._id}>
           <img className='w-100 ' src={item.imageCover} alt="" />
@@ -37,7 +37,7 @@ export default function Product({Products}) {
             </div>
            </div>
           </Link>
-           <button className='btn bg-main text-white w-100 ' onClick={()=>addProduct(item._id)}>add to cart</button>
+           <button className='btn bg-main text-white w-100  ' onClick={()=>addProduct(item._id)}>add to cart</button>
        </div>
     </div>
     })}
